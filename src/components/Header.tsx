@@ -12,7 +12,7 @@ export const Header = () => {
     const [state, dispatch] = array as [IState, (action: LanguageAction) => void];
     const [show, setShow] = useState(false);
     const handleFlagClick = (e: React.MouseEvent) => {
-        e.preventDefault();
+        e.preventDefault(); 
         const target = e.currentTarget as HTMLDivElement;
         const locale = target.getAttribute('data-locale') as Language;
         if(locale)
