@@ -1,8 +1,8 @@
-import { Language } from "../enum/language";
-import { IDictionary } from "../interface";
-import { jp } from "../lang/jp";
-import { us } from "../lang/us"
-import { vn } from "../lang/vn";
+import { Language } from "@/enum/language";
+import { IDictionary } from "@/interface";
+import { us } from "@/lang/us";
+import { vn } from "@/lang/vn";
+import { jp } from "@/lang/jp";
 
 export const getDictionary = (locale: Language): IDictionary => {
     switch(locale) {

@@ -3,7 +3,7 @@ import { context } from "../store/context"
 import { IState } from "../interface"
 
 export const Skill = () => {
-
+    
     const [state] = useContext(context) as [IState];
 
     return (
